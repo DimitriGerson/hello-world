@@ -7,7 +7,7 @@ li{
   padding-left: 16px;
 }
 li::before{
-  content: "🏀";
+  content: "•";
   padding-right: 8px;
   color: green;
 }
