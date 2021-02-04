@@ -11,3 +11,29 @@ ul li::before{
   padding-right: 8px;
   color: green;
 }
+
+body {
+  margin: 10px;
+  padding: 0;
+  font: 14px Verdana, sans-serif;
+}
+
+a {
+  margin: 0 2px;
+  width: 100px;
+  height: 20px;
+  display: block;
+  text-align: center;
+  border: 1px solid gray;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+}
+a:hover {
+  background: #ccc;
+  border: 1px solid gray; 
+}
+a:active {
+  background: gray;
+  color: #fff;
+}
