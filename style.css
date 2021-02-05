@@ -48,7 +48,7 @@ a {
 }
 a:hover {
   background: #ccc;
-  border: 1px solid gray; 
+  /*border: 1px solid gray; */ 
 }
 a:active {
   background: gray;
