@@ -16,6 +16,11 @@ footer {
 	display : table-row;
 	height: 100px; /* à titre d'exemple */
 }
+/* div */
+div
+{
+	margin: 16px;
+}
 /* h */
 h1
 {
