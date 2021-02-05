@@ -12,7 +12,7 @@ body {
   font: 14px Verdana, sans-serif;
 }
 .bandeau{
-	background-color: grey;
+	background-color: red;
 }
 
 .boutonaccueil{position: fixed; top: 1%; left: 23%;}
