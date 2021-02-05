@@ -41,11 +41,13 @@ h1
 
 /* ancre */
 a {
-  margin: 0 2px;
+  /*
+	margin: 0 2px;
   width: 150px;
   height: 20px;
   display: block;
   text-align: center;
+  */
   /* border: 1px solid gray; */
   text-decoration: none;
   color: #000;
