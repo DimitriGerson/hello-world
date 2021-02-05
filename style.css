@@ -12,7 +12,7 @@ body {
   font: 14px Verdana, sans-serif;
 }
 :* les class */
-.header {
+div .header {
 	align: center;
 	background-color: black;
 
