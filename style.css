@@ -15,7 +15,7 @@ body {
 	background-color: #f00;
 }
 
-.boutonaccueil{position: fixed; top: 1%; left: 23%;}
+.boutonaccueil{position: fixed; top: 50%; left: 23%;}
 
 .boutoncontact{position: fixed; top: 1%; left: 47%;}
 .boutonauteur{position: fixed; top: 1%; left: 70%;}
