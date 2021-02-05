@@ -31,7 +31,7 @@ div.header {
 img {
 	margin-left: auto;
     	margin-right: auto;
-	background-color: green;
+	background-color: #0f0;
 }
 
 footer {
@@ -81,7 +81,7 @@ a:hover {
   /*border: 1px solid gray; */ 
 }
 a:active {
-  background: gray;
+  background: #222;
   color: #fff;
 }
 /* puces */
@@ -96,6 +96,6 @@ li{
 ul li::before{
   content: "•";
   padding-right: 8px;
-  color: green;
+  color: #0f0;
 }
 
