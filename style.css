@@ -7,11 +7,13 @@ html, body {
 body {
   margin-top:0;
   display : table;
-	width: 100%;
+  width: 100%;
   margin: 10px;
   padding: 0;
   font: 14px Verdana, sans-serif;
 }
+
+
 .bandeau{
 	padding-top:0px;
 	height: 30px;
@@ -19,12 +21,10 @@ body {
 }
 
 .boutonaccueil{position: relative; top: 30%; left: 23%;}
-
 .boutoncontact{position: relative; top: 4.5%; left: 47%;}
 .boutonauteur{position: relative; top: 4.5%; left: 70%;}
-/*
-.drapeauespagne{position: fixed; top: 1%; right: 2%;}*/
-les class 
+
+/*les class */ 
 div.header {
 	margin-left: auto;
     	margin-right: auto;
