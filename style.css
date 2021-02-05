@@ -17,8 +17,8 @@ body {
 
 .boutonaccueil{position: relative; top: 3.8%; left: 23%;}
 
-.boutoncontact{position: fixed; top: 3.9%; left: 47%;}
-.boutonauteur{position: fixed; top: 4%; left: 70%;}
+.boutoncontact{position: relative; top: 3.8%; left: 47%;}
+.boutonauteur{position: relative; top: 3.8%; left: 70%;}
 /*
 .drapeauespagne{position: fixed; top: 1%; right: 2%;}*/
 les class 
