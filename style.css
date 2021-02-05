@@ -41,7 +41,7 @@ a {
   height: 20px;
   display: block;
   text-align: center;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   text-decoration: none;
   color: #000;
   background: #fff;
