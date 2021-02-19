@@ -1,0 +1,9 @@
+#ignorer les fichiers .png
+*.png
+#ignorer les fichiers .php
+*.php
+#ignorer les fichiers suivants
+README.md
+style.css
+.index.html.swp
+
