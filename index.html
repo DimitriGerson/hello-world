@@ -1,40 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello-word</title>
+ 
   <link rel="icon" type="image/png" href="image.png" />
-  <link rel="stylesheet" href="style.css">
+ <!-- <link rel="stylesheet" href="style.css"> -->
+  
   <script src="script.js"></script>
+
 </head>
 <body>
-  <div class="bandeau">
-	<a class="boutonaccueil" href="index.html">Accueil</a> 
-	<a class="boutoncontact" href="contact.html">Contact</a>
-	<a class="boutonauteur" href="auteur.html">L'auteur</a>
-</div>
-  <div class="header"><img src="https://www.wikidebrouillard.org/images/e/e2/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320.png"/></div>
-  <div class="titre"><h1>C'est ici que tout à commencé...</h1></div>
-  <div class="presentation">
-    <p>En 2019 je me suis inscrit en autodidacte sur GitHub et c'est une belle aventure qui a commencé</p>
-  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+<div class="container px-4">
+	<a class="navbar-brand" href="index.html">Accueil</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.htlm">Contact</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="auteur.html">Auteur</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div class="row">
+<h1 class="text-primary font-weight-blod text-center bg-light display-3"><strong>Dimitri Gerson</strong></h1>
+</div>
+<div class="container px-4">
+<div class="row">
+  <div class="col-4 header"><img src="https://www.wikidebrouillard.org/images/e/e2/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320.png" class="img-fluid" alt="github"/></div>
+  <div class="col-4 text-center"><h2 >GIT</h2>
+<blockquote class="blockquote text-center">
+<p class="h4"><em>"Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, 
+auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2."</em></p>
+</br>
+<footer class="blockquote-footer">sources <cite title="Source Title">Wikipédia</cite></footer>
+</blockquote> 
+</div>
+  <div class="col-4 presentation">
+  <div class="jumbotron">
+  <h1 class="h2">Un peu d'histoire...</h1>
+    <p class="lead">En 2019 je me suis inscrit en autodidacte sur GitHub, et c'est une belle aventure qui a commencé ainsi.</p>
+  <hr class="my-4">
+    <p>Pour avoir plus d'information sur les différents projet GitHub que j'ai réalisé...</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#projet" role="button">En savoir plus</a>
+  </p>
+  </div>
+  </div>
+</div>
   </br>
-  <div class="titre_h2"><h2>Voici quelques sites réalisés depuis</h2></div>
+  <div class="row">
+  <div class="titre_h2 text-center text-warning"><h2>Voici quelques sites réalisés depuis</h2></div>
   <div class="les_sites">
     <ul>
       <li><a href="http://dimitrigerson.fr">Un site en python/flask</a></li>
       <li><a href="https://fast-sea-53219.herokuapp.com">Un site en React</a> </li>
     </ul>
   </div>
-  
-  </br>
-  <div class="projet">
-    <p>J'ai de nombreux projet que je gère via GitHub</p>
-    <p>Actuellement je fais une formation en C#</p>
   </div>
   
-  <div class="titre_h3">
+  </br>
+<div class="row">
+<div><p>Cette section présentes mon activité actuelle et mes projets encours.</p>
+  <div class="projet">
+    <p>J'ai de nombreux projet que je gère via GitHub.</p>
+    <p>Actuellement je fais une formation en C#.</p>
+  </div>
+</div>
+  
+  <div class="titre_h3" id="projet">
     <h3>Listes des 14 GitHub actuellement en activité</h3>
   </div>
   <div class="liste_projet_git">
@@ -56,6 +102,7 @@
     </ol>
   </div>
 </body>
+</div>
 <footer>
   <p>Poster par : Dimitri Gerson</p>
   <p>Contact: <a href="mailto:durand@mail.fr">
