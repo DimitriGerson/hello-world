@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print a greeting
+        uses: actions/checkout@v2
+      - name: Bob2
         env:
           MY_VAR: Hi there! My name is
           FIRST_NAME: Mona
@@ -15,3 +17,8 @@ jobs:
           LAST_NAME: OCtocat
         run: |
           echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+          python -V
+          python3 -V
+          
+        
+
