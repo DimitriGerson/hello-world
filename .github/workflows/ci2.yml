@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print a greeting
-      - uses: actions/checkout@v1
+        uses: actions/checkout@v2
         env:
           MY_VAR: Hi there! My name is
           FIRST_NAME: Mona
