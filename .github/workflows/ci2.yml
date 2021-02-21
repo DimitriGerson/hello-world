@@ -16,6 +16,6 @@ jobs:
         run: |
           echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
           python3
-          print("echo e suis un naze")
+          print(echo e suis un naze)
           quit()
 
